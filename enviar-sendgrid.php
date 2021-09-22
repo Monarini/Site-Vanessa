@@ -2,8 +2,8 @@
 
 require("./sendgrid-php/sendgrid-php.php");
 
-$email_site = "monarini97@gmail.com";
-$nome_site = "Bikcraft";
+$email_site = "contato@vanessalucenafotos.com.br";
+$nome_site = "Vanessa Lucena - Fotografias";
 
 $email_user = $_POST["email"];
 $nome_user = $_POST["nome"];
@@ -22,7 +22,7 @@ $email->addTo($email_site, $nome_site);
 
 $email->setReplyTo($email_user, $nome_user);
 
-$email->setSubject("Formulário Bikcraft");
+$email->setSubject("Formulário Vanessa Lucena - Fotografias");
 $email->addContent("text/plain", $body_content);
 
 $sendgrid = new \SendGrid("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");

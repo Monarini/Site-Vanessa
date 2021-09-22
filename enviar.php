@@ -81,7 +81,7 @@ try {
   <html>
     <head>
       <title>Erro no envio</title>
-      <meta http-equiv="refresh" content="10;URL="./"">
+      <meta http-equiv="refresh" content="10;URL="./>
     </head>
     <body>
       <!-- Mensagem de erro -->
